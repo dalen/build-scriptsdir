@@ -1,0 +1,30 @@
+{
+  "name": "build-scriptsdir",
+  "version": "1.0.0",
+  "description": "Build provider for scripts in scripts directory",
+  "main": "index.js",
+  "repository": "https://github.com/dalen/build-scriptsdir",
+  "author": "Erik Dalén <erik.gustav.dalen@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "build",
+    "scripts",
+    "github"
+  ],
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Build configurations for scripts in scripts directory",
+      "versions": {
+        "2.0.0": "provideScriptsDirTargets"
+      }
+    }
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
