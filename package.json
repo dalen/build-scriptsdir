@@ -1,7 +1,7 @@
 {
   "name": "build-scriptsdir",
   "version": "1.0.0",
-  "description": "Build provider for scripts in scripts directory",
+  "description": "Build provider for scripts in script directory",
   "main": "index.js",
   "repository": "https://github.com/dalen/build-scriptsdir",
   "author": "Erik Dalén <erik.gustav.dalen@gmail.com>",
@@ -16,7 +16,7 @@
   },
   "providedServices": {
     "builder": {
-      "description": "Build configurations for scripts in scripts directory",
+      "description": "Build configurations for scripts in script directory",
       "versions": {
         "2.0.0": "provideScriptsDirTargets"
       }
